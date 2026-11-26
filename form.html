@@ -1,0 +1,320 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="./assets/fonts/feather/feather.css">
+  <link rel="stylesheet" href="./assets/css/theme.css">
+  <link rel="stylesheet" href="./assets/css/site.css">
+  <title>Create Account | ACME Fashion House</title>
+  <style>
+    .required-marker {
+      color: #b53800;
+      font-weight: 700;
+    }
+    .shipping-fieldset {
+      border: 1px solid #d4d4d4;
+      border-radius: 4px;
+      padding: 1rem 1.25rem;
+      margin-bottom: 1.5rem;
+    }
+    .shipping-fieldset legend {
+      font-size: 1rem;
+      font-weight: 600;
+      width: auto;
+      padding: 0 0.5rem;
+      margin-bottom: 0.5rem;
+    }
+    .text-gray-500 {
+      color: #525252 !important;
+    }
+    .footer .text-gray-300 {
+      color: #d4d4d4 !important;
+    }
+    .footer .btn-gray-500 {
+      background-color: #525252 !important;
+      border-color: #525252 !important;
+      color: #ffffff !important;
+    }
+    .footer-links-list {
+      list-style: none;
+      padding-left: 0;
+      margin-bottom: 0;
+    }
+  </style>
+</head>
+<body>
+<div class="navbar navbar-topbar navbar-expand-xl navbar-light bg-light">
+  <div class="container">
+    <!-- Promo -->
+    <div class="mr-xl-8">
+      <div id="skiplink">
+        <a href="#content">Skip to Main Content</a>
+      </div>
+      <i class="fe fe-truck mr-2" aria-hidden="true"></i> <span class="heading-xxxs">Free shipping worldwide</span>
+    </div>
+  </div>
+</div>
+
+<!-- NAVBAR -->
+<header class="navbar navbar-expand-lg navbar-light bg-white">
+  <div class="container">
+    <!-- Brand -->
+    <h1 class="sr-hidden">ACME Fashion House</h1>
+    <a class="navbar-brand" href="main.html" aria-label="ACME Fashion House Home">
+      <img src="./assets/img/site/logo.png" alt="ACME Fashion House logo" width="209" height="81">
+    </a>
+
+    <!-- Collapse -->
+    <nav class="collapse navbar-collapse" id="navbarCollapse" aria-label="Primary navigation">
+      <!-- Nav -->
+      <ul class="navbar-nav mx-auto">
+        <li class="nav-item dropdown">
+          <!-- Toggle -->
+          <a class="nav-link" href="main.html">Home</a>
+        </li>
+        <li class="nav-item dropdown position-static">
+          <!-- Toggle -->
+          <a class="nav-link" href="#">Catalog</a>
+        </li>
+        <li class="nav-item dropdown">
+          <!-- Toggle -->
+          <a class="nav-link" href="#">Shop</a>
+        </li>
+        <li class="nav-item dropdown">
+          <!-- Toggle -->
+          <a class="nav-link" href="#">Pages</a>
+        </li>
+        <li class="nav-item dropdown">
+          <!-- Toggle -->
+          <a class="nav-link" href="#">Blog</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Docs</a>
+        </li>
+      </ul>
+
+      <!-- Nav -->
+      <ul class="navbar-nav flex-row">
+        <li class="nav-item">
+          <a class="nav-link" href="#" aria-label="Search products">
+            <i class="fe fe-search" aria-hidden="true"></i>
+          </a>
+        </li>
+        <li class="nav-item ml-lg-n4">
+          <a class="nav-link" href="form.html" aria-label="User account">
+            <i class="fe fe-user" aria-hidden="true"></i>
+          </a>
+        </li>
+        <li class="nav-item ml-lg-n4">
+          <a class="nav-link" href="#" aria-label="Wishlist">
+            <i class="fe fe-heart" aria-hidden="true"></i>
+          </a>
+        </li>
+        <li class="nav-item ml-lg-n4">
+          <a class="nav-link" href="#" aria-label="Shopping cart, 2 items">
+            <span data-cart-items="2">
+              <i class="fe fe-shopping-cart" aria-hidden="true"></i>
+            </span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<!-- PROMO -->
+<div class="py-3 bg-dark bg-pattern mb-4 promo">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <!-- Text -->
+        <div class="text-center text-white">
+          <span class="heading-xxs letter-spacing-xl">
+            ⚡️ Go back to work confident and celebrate 2020 in style ⚡️
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<main id="content" tabindex="-1">
+
+  <!-- CREATE ACCOUNT -->
+  <div class="pt-7">
+    <div class="container">
+      <div class="row pb-7 border-bottom">
+        <div class="col-12 col-md-6 col-lg-8">
+
+          <h2 class="contactus">Create Account</h2>
+          <p class="text-gray-500">
+            Become an ACME privilege member and get access to exclusive early season fashion.
+            Fields marked with <span class="required-marker" aria-hidden="true">*</span> are required.
+          </p>
+
+          <form class="border p-4" action="#" method="post">
+
+            <div class="form-group">
+              <label for="title">Title <span class="required-marker" aria-hidden="true">*</span></label>
+              <select class="custom-select" id="title" name="title" required aria-required="true">
+                <option value="">Please select a title</option>
+                <option value="Mr">Mr</option>
+                <option value="Mrs">Mrs</option>
+                <option value="Miss">Miss</option>
+                <option value="Ms">Ms</option>
+                <option value="Mx">Mx</option>
+                <option value="Dr">Dr</option>
+                <option value="Lord">Lord</option>
+                <option value="Lady">Lady</option>
+                <option value="Sir">Sir</option>
+                <option value="Dame">Dame</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="first">First Name <span class="required-marker" aria-hidden="true">*</span></label>
+              <input type="text" id="first" name="firstName" class="form-control" autocomplete="given-name" required aria-required="true">
+            </div>
+
+            <div class="form-group">
+              <label for="last">Last Name <span class="required-marker" aria-hidden="true">*</span></label>
+              <input type="text" id="last" name="lastName" class="form-control" autocomplete="family-name" maxlength="40" required aria-required="true">
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email Address <span class="required-marker" aria-hidden="true">*</span></label>
+              <input type="email" id="email" name="email" class="form-control" autocomplete="email" required aria-required="true">
+            </div>
+
+            <div class="custom-control custom-checkbox form-group">
+              <input type="checkbox" id="signup" name="newsletter" class="custom-control-input">
+              <label class="custom-control-label signup" for="signup">Signup to our newsletter</label>
+            </div>
+
+            <fieldset class="form-group shipping-fieldset">
+              <legend>Shipping option preferences</legend>
+              <p class="text-gray-500 mb-3">Please indicate your shipping option preferences by selecting the relevant option:</p>
+
+              <div class="custom-control custom-radio mb-2">
+                <input type="radio" id="customRadio1" name="shippingOption" value="standard" class="custom-control-input">
+                <label class="custom-control-label" for="customRadio1">Standard 10 to 14 days</label>
+              </div>
+              <div class="custom-control custom-radio mb-2">
+                <input type="radio" id="customRadio2" name="shippingOption" value="priority" class="custom-control-input">
+                <label class="custom-control-label" for="customRadio2">Priority 7 to 10 days</label>
+              </div>
+              <div class="custom-control custom-radio">
+                <input type="radio" id="customRadio3" name="shippingOption" value="express" class="custom-control-input">
+                <label class="custom-control-label" for="customRadio3">3 working days</label>
+              </div>
+            </fieldset>
+
+            <p>By creating an account, you acknowledge that you're aware that your personal data will be used in line with our <a href="#">Privacy Policy</a>. View our <a href="#">Customer Data Promise</a> for more information.</p>
+
+            <p>You are also agreeing to cookies being used in line with our <a href="#">Cookie Policy</a>. Details on how to disable cookies are set out in the same policy.</p>
+
+            <button type="submit" class="btn btn-primary">Create Account</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+<!-- FOOTER -->
+<footer class="bg-dark bg-cover footer">
+  <div class="py-12 border-bottom border-gray-700">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-12 col-md-10 col-lg-8 col-xl-6">
+
+          <!-- Heading -->
+          <h2 class="h5 mb-7 text-center text-white">Want the latest style ideas and fashion advice in your inbox?</h2>
+
+          <!-- Form -->
+          <form class="mb-11">
+            <div class="form-row align-items-start">
+              <div class="col">
+                <label for="newsletter-email-form" class="sr-hidden">Email address</label>
+                <input id="newsletter-email-form" type="email" class="form-control form-control-gray-700 form-control-lg" placeholder="Enter Email *" required aria-required="true">
+              </div>
+              <div class="col-auto">
+                <button type="submit" class="btn btn-gray-500 btn-lg">Subscribe</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 col-md-3">
+          <!-- Heading -->
+          <img src="./assets/img/site/logobw.png" alt="ACME Fashion House" width="205" height="81">
+        </div>
+        <div class="col-6 col-sm">
+
+          <!-- Heading -->
+          <h3 class="heading-xxs mb-4 text-white">Support</h3>
+          <ul class="footer-links-list">
+            <li><a class="text-gray-300" href="#">Contact Us</a></li>
+            <li><a class="text-gray-300" href="#">FAQs</a></li>
+            <li><a class="text-gray-300" href="#">Size Guide</a></li>
+            <li><a class="text-gray-300" href="#">Shipping & Returns</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-sm">
+
+          <!-- Heading -->
+          <h3 class="heading-xxs mb-4 text-white">Shop</h3>
+          <ul class="footer-links-list">
+            <li><a class="text-gray-300" href="#">Men's Shopping</a></li>
+            <li><a class="text-gray-300" href="#">Women's Shopping</a></li>
+            <li><a class="text-gray-300" href="#">Kids' Shopping</a></li>
+            <li><a class="text-gray-300" href="#">Discounts</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-sm">
+
+          <!-- Heading -->
+          <h3 class="heading-xxs mb-4 text-white">Company</h3>
+          <ul class="footer-links-list">
+            <li><a class="text-gray-300" href="#">How we work</a></li>
+            <li><a class="text-gray-300" href="#">Achievements</a></li>
+            <li><a class="text-gray-300" href="#">Our Mission</a></li>
+            <li><a class="text-gray-300" href="#">Meet the Team</a></li>
+            <li><a class="text-gray-300" href="#">Web accessibility policy</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-sm">
+
+          <!-- Heading -->
+          <h3 class="heading-xxs mb-4 text-white">Contact</h3>
+          <ul class="footer-links-list">
+            <li><a class="text-gray-300" href="#">Contact Us</a></li>
+            <li><a class="text-gray-300" href="#">Become a Dealer</a></li>
+            <li><a class="text-gray-300" href="tel:+611234567890">+61 1234 567890</a></li>
+            <li><a class="text-gray-300" href="mailto:hello@canaxess.com.au">hello@canaxess.com.au</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="py-6">
+      <div class="container">
+        <div class="row">
+          <div class="col-auto">
+
+            <!-- Payment methods -->
+            <img class="footer-payment" src="./assets/img/payment/mastercard.svg" alt="Mastercard">
+            <img class="footer-payment" src="./assets/img/payment/visa.svg" alt="Visa">
+            <img class="footer-payment" src="./assets/img/payment/amex.svg" alt="American Express">
+            <img class="footer-payment" src="./assets/img/payment/paypal.svg" alt="PayPal">
+            <img class="footer-payment" src="./assets/img/payment/maestro.svg" alt="Maestro">
+            <img class="footer-payment" src="./assets/img/payment/klarna.svg" alt="Klarna">
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
